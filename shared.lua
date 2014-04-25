@@ -718,6 +718,72 @@ TEAM_RUSSIANGUN = AddExtraTeam("Russian Arms Dealer", {
 	mayorCanSetSalary = true
 })
 
+TEAM_BANDITMEDIC = AddExtraTeam("Bandit Medic", {
+	color = Color(47, 79, 79, 255),
+	model = "models/player/Group03/Female_01.mdl",
+		"models/player/Group03/Female_02.mdl",
+		"models/player/Group03/Female_03.mdl",
+		"models/player/Group03/Female_04.mdl",
+		"models/player/Group03/Female_06.mdl",
+		"models/player/group03/male_01.mdl",
+		"models/player/Group03/Male_02.mdl",
+		"models/player/Group03/male_03.mdl",
+		"models/player/Group03/Male_04.mdl",
+		"models/player/Group03/Male_05.mdl",
+		"models/player/Group03/Male_06.mdl",
+		"models/player/Group03/Male_07.mdl",
+		"models/player/Group03/Male_08.mdl",
+		"models/player/Group03/Male_09.mdl"},
+      description = [[With your medical knowledge,
+		you heal your fellow bandits to proper
+		health.Right click with the Medical Kit to heal yourself.]],
+	weapons = {"fas2_ifak","m9k_luger"},
+	command = "banditmedic",
+	max = 5,
+	salary = 70,
+	admin = 0,
+	vote = false,
+	hasLicense = false,
+	medic = true,
+	mayorCanSetSalary = false,
+}}	
+      
+TEAM_GANGSNIPER = AddExtraTeam("Bandit Sniper", {
+	color = Color(75, 75, 75, 255),
+	model = {
+		"models/player/Group03/Female_01.mdl",
+		"models/player/Group03/Female_02.mdl",
+		"models/player/Group03/Female_03.mdl",
+		"models/player/Group03/Female_04.mdl",
+		"models/player/Group03/Female_06.mdl",
+		"models/player/group03/male_01.mdl",
+		"models/player/Group03/Male_02.mdl",
+		"models/player/Group03/male_03.mdl",
+		"models/player/Group03/Male_04.mdl",
+		"models/player/Group03/Male_05.mdl",
+		"models/player/Group03/Male_06.mdl",
+		"models/player/Group03/Male_07.mdl",
+		"models/player/Group03/Male_08.mdl",
+		"models/player/Group03/Male_09.mdl"},
+	description = [[ The Bandit Sniper Got recruited by the mob boss because of his great sniping Skills! Work with your fellow bandits And Follow the bandits leader’s agenda.]],
+	weapons = {fas2_m82,m9k_intervention,m9k_luger},
+	command = "sniperbandit",
+	max = 5,
+	salary = 80,
+	admin = 0,
+	vote = false,
+	hasLicense = false,
+	mayorCanSetSalary = false
+}}
+
+
+
+
+
+
+       
+
+
 /*
 --------------------------------------------------------
 HOW TO MAKE A DOOR GROUP
