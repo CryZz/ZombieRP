@@ -777,39 +777,8 @@ TEAM_BANDITMEDIC = AddExtraTeam("Bandit Medic", {
 	mayorCanSetSalary = false,
 }}
 
-//SuperAdmin
-TEAM_ADMIN = AddExtraTeam("Superadmin on Duty", {
-	color = Color(38, 255, 0, 153),
-	model = "models/nikout/dishonored/assassin1.mdl",
-	description = [[Don't rp as this job.]],
-	weapons = {"weapon_nautilus", "fas2_dv2"},
-	command = "admin",
-	max = 64,
-	salary = 1000,
-	admin = 1,
-	vote = false,
-	hasLicense = true,
-	candemote = true,
-	Admin = true,
-	mayorCanSetSalary = false
-}}
 
-//HeadAdmin
-TEAM_ADMIN = AddExtraTeam("Headadmin on Duty", {
-	color = Color(38, 255, 0, 153),
-	model = "models/nikout/dishonored/assassin1.mdl",
-	description = [[Don't rp as this job.]],
-	weapons = {"weapon_nautilus", "fas2_dv2"},
-	command = "admin",
-	max = 64,
-	salary = 500,
-	admin = 1,
-	vote = false,
-	hasLicense = true,
-	candemote = true,
-	Admin = true,
-	mayorCanSetSalary = false
-}}
+
 
 /*
 --------------------------------------------------------
