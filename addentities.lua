@@ -119,14 +119,6 @@ AddEntity("Bandages", {
 	allowed = {TEAM_MEDIC, TEAM_SWATMEDIC}
 })
 
-AddEntity("Universal Ammo Kit", {
-	ent = "fas2_ammokit",
-	model = "models/Items/BoxMRounds.mdl",
-	price = 300,
-	max = 100,
-	cmd = "/buyammobox"
-})
-
 AddEntity("Quickcloths", {
 	ent = "fas2_ammo_quikclots",
 	model = "models/Items/BoxMRounds.mdl",
