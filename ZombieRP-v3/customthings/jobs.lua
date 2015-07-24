@@ -55,6 +55,13 @@ TEAM_CITIZEN = DarkRP.createJob("Survivor", {
 	hobo = false,
 	label = "Survivor" -- Optional: the text on the button in the F4 menu
 })
+TEAM_COOK = AddExtraTeam("Cook", Color(238, 99, 99, 255),
+"models/player/mossman.mdl", [[As a cook, it is your responsibility to feed the hungry citizents
+of your city. 
+You can spawn a microwave and sell the food you make:
+/Buymicrowave]], {}, "cook", 2, 45, 0, 0, false)
+
+})
 
 TEAM_POLICE = DarkRP.createJob("Survival Protection", {
 	color = Color(25, 25, 170, 255),
